@@ -1,8 +1,7 @@
 function Pendiente(id, title) {
-    this.id = 0;
+    this.id = id;
     this.status = true;
     this.title = title;
-
 }
 
 Pendiente.prototype.toggleStatus = () =>{

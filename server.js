@@ -23,7 +23,7 @@ server.use(express.json()); // for parsing application/json
 
 server.route('/pendiente/:id')
     .get(readPendiente)
-    // .put(modifyPendiente)
+    .put(modifyPendiente)
     // .delete(deletePendiente);
 
 server.post('/pendiente', createPendiente);

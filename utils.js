@@ -1,4 +1,4 @@
-let IdCounter = -1;
+let IdCounter = 0;
 
 const IdCreator = ()=>{
     IdCounter = IdCounter++;
